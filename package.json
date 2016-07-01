@@ -1,6 +1,6 @@
 {
   "name": "react-native-dznwebview",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An iPhone/iPad web browser module for React Native, based on DZNWebViewController",
   "main": "index.ios.js",
   "scripts": {
