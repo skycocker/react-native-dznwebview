@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "54447165FE84A81F78FB7181867460B5BF288723",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "54447165FE84A81F78FB7181867460B5BF288723" : 0,
+    "D311AB8C174840A4EE4A47EBDC7C8F65527E0B7B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DB110DAE-1C33-48D4-9A87-A45348E9B539",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "54447165FE84A81F78FB7181867460B5BF288723" : "react-native-dznwebview\/",
+    "D311AB8C174840A4EE4A47EBDC7C8F65527E0B7B" : "react-native-dznwebview\/DZNWebViewController\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RCTDZNWebView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RCTDZNWebView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/skycocker\/react-native-dznwebview.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "54447165FE84A81F78FB7181867460B5BF288723"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dzenbot\/DZNWebViewController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D311AB8C174840A4EE4A47EBDC7C8F65527E0B7B"
+    }
+  ]
+}
