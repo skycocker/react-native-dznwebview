@@ -2,5 +2,5 @@
 #import "RCTConvert.h"
 #import "DZNWebViewController.h"
 
-@interface RCTDZNWebView : NSObject// <RCTBridgeModule>
+@interface RCTDZNWebView : NSObject <RCTBridgeModule>
 @end
