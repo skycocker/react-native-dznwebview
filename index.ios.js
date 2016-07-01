@@ -7,14 +7,14 @@
 var React = require('react-native');
 var {
   NativeModules: {
-    RCTDZNWebView,
+    WebView,
   },
 } = React;
 
-var RCTDNZWebViewExport = {
+var RCTDZNWebViewExport = {
   open: function(url, options={}) {
-    RCTDNZWebView.openUrlWithParams(url, options);
+    WebView.openUrlWithParams(url, options);
   },
 };
 
-module.exports = RCTDNZWebViewExport;
+module.exports = RCTDZNWebViewExport;
