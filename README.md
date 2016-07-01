@@ -5,6 +5,7 @@ An iPhone/iPad web browser module for React Native, based on [DZNWebViewControll
 ## Installation
 
 1. Run `npm install react-native-browser --save` in your project directory.
+- Make sure you have the `WebKit` framework included in your XCode project
 - Open your project in XCode, right click on `Libraries` and click `Add Files to "Your Project Name"`
 - Inside your node_modules, find react-native-dznwebview and add `RCTDZNWebView.xcodeproj` to your project.
 - Add `libDZNWebView.a` to `Build Phases -> Link Binary With Libraries`

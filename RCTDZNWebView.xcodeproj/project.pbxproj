@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65FC53D91D26B3CE003CEE02 /* RCTDZNWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC53D81D26B3CE003CEE02 /* RCTDZNWebView.m */; };
+		65FC55BA1D26B706003CEE02 /* DZNPolyActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC55901D26B706003CEE02 /* DZNPolyActivity.m */; };
+		65FC55BB1D26B706003CEE02 /* DZNWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC55921D26B706003CEE02 /* DZNWebView.m */; };
+		65FC55BC1D26B706003CEE02 /* DZNWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC55941D26B706003CEE02 /* DZNWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		65FC53C81D26AF47003CEE02 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		65FC53CA1D26AF47003CEE02 /* libRCTDZNWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTDZNWebView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FC53D71D26B3CE003CEE02 /* RCTDZNWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTDZNWebView.h; sourceTree = "<group>"; };
+		65FC53D81D26B3CE003CEE02 /* RCTDZNWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTDZNWebView.m; sourceTree = "<group>"; };
+		65FC558F1D26B706003CEE02 /* DZNPolyActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZNPolyActivity.h; sourceTree = "<group>"; };
+		65FC55901D26B706003CEE02 /* DZNPolyActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNPolyActivity.m; sourceTree = "<group>"; };
+		65FC55911D26B706003CEE02 /* DZNWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZNWebView.h; sourceTree = "<group>"; };
+		65FC55921D26B706003CEE02 /* DZNWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNWebView.m; sourceTree = "<group>"; };
+		65FC55931D26B706003CEE02 /* DZNWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZNWebViewController.h; sourceTree = "<group>"; };
+		65FC55941D26B706003CEE02 /* DZNWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNWebViewController.m; sourceTree = "<group>"; };
+		65FC55971D26B706003CEE02 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/DZNWebViewController.strings; sourceTree = "<group>"; };
+		65FC55981D26B706003CEE02 /* dzn_icn_activity_chrome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_activity_chrome@2x.png"; sourceTree = "<group>"; };
+		65FC55991D26B706003CEE02 /* dzn_icn_activity_chrome@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_activity_chrome@2x~ipad.png"; sourceTree = "<group>"; };
+		65FC559A1D26B706003CEE02 /* dzn_icn_activity_dolphin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_activity_dolphin@2x.png"; sourceTree = "<group>"; };
+		65FC559B1D26B706003CEE02 /* dzn_icn_activity_dolphin@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_activity_dolphin@2x~ipad.png"; sourceTree = "<group>"; };
+		65FC559C1D26B706003CEE02 /* dzn_icn_activity_link@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_activity_link@2x.png"; sourceTree = "<group>"; };
+		65FC559D1D26B706003CEE02 /* dzn_icn_activity_link@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_activity_link@2x~ipad.png"; sourceTree = "<group>"; };
+		65FC559E1D26B706003CEE02 /* dzn_icn_activity_opera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_activity_opera@2x.png"; sourceTree = "<group>"; };
+		65FC559F1D26B706003CEE02 /* dzn_icn_activity_opera@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_activity_opera@2x~ipad.png"; sourceTree = "<group>"; };
+		65FC55A01D26B706003CEE02 /* dzn_icn_activity_safari@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_activity_safari@2x.png"; sourceTree = "<group>"; };
+		65FC55A11D26B706003CEE02 /* dzn_icn_activity_safari@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_activity_safari@2x~ipad.png"; sourceTree = "<group>"; };
+		65FC55A21D26B706003CEE02 /* dzn_icn_toolbar_action.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dzn_icn_toolbar_action.png; sourceTree = "<group>"; };
+		65FC55A31D26B706003CEE02 /* dzn_icn_toolbar_action@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_toolbar_action@2x.png"; sourceTree = "<group>"; };
+		65FC55A41D26B706003CEE02 /* dzn_icn_toolbar_action@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_toolbar_action@3x.png"; sourceTree = "<group>"; };
+		65FC55A51D26B706003CEE02 /* dzn_icn_toolbar_backward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dzn_icn_toolbar_backward.png; sourceTree = "<group>"; };
+		65FC55A61D26B706003CEE02 /* dzn_icn_toolbar_backward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_toolbar_backward@2x.png"; sourceTree = "<group>"; };
+		65FC55A71D26B706003CEE02 /* dzn_icn_toolbar_backward@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_toolbar_backward@3x.png"; sourceTree = "<group>"; };
+		65FC55A81D26B706003CEE02 /* dzn_icn_toolbar_forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dzn_icn_toolbar_forward.png; sourceTree = "<group>"; };
+		65FC55A91D26B706003CEE02 /* dzn_icn_toolbar_forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_toolbar_forward@2x.png"; sourceTree = "<group>"; };
+		65FC55AA1D26B706003CEE02 /* dzn_icn_toolbar_forward@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_toolbar_forward@3x.png"; sourceTree = "<group>"; };
+		65FC55AB1D26B706003CEE02 /* dzn_icn_toolbar_reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dzn_icn_toolbar_reload.png; sourceTree = "<group>"; };
+		65FC55AC1D26B706003CEE02 /* dzn_icn_toolbar_reload@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_toolbar_reload@2x.png"; sourceTree = "<group>"; };
+		65FC55AD1D26B706003CEE02 /* dzn_icn_toolbar_reload@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_toolbar_reload@3x.png"; sourceTree = "<group>"; };
+		65FC55AE1D26B706003CEE02 /* dzn_icn_toolbar_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dzn_icn_toolbar_stop.png; sourceTree = "<group>"; };
+		65FC55AF1D26B706003CEE02 /* dzn_icn_toolbar_stop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_toolbar_stop@2x.png"; sourceTree = "<group>"; };
+		65FC55B01D26B706003CEE02 /* dzn_icn_toolbar_stop@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_toolbar_stop@3x.png"; sourceTree = "<group>"; };
+		65FC55B11D26B706003CEE02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DZNWebViewController.strings; sourceTree = "<group>"; };
+		65FC55B21D26B706003CEE02 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/DZNWebViewController.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65FC53C71D26AF47003CEE02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65FC53C11D26AF47003CEE02 = {
+			isa = PBXGroup;
+			children = (
+				65FC553C1D26B705003CEE02 /* DZNWebViewController */,
+				65FC53D71D26B3CE003CEE02 /* RCTDZNWebView.h */,
+				65FC53D81D26B3CE003CEE02 /* RCTDZNWebView.m */,
+				65FC53CB1D26AF47003CEE02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65FC53CB1D26AF47003CEE02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65FC53CA1D26AF47003CEE02 /* libRCTDZNWebView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65FC553C1D26B705003CEE02 /* DZNWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				65FC558D1D26B706003CEE02 /* Source */,
+			);
+			path = DZNWebViewController;
+			sourceTree = "<group>";
+		};
+		65FC558D1D26B706003CEE02 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				65FC558E1D26B706003CEE02 /* Classes */,
+				65FC55951D26B706003CEE02 /* Resources */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		65FC558E1D26B706003CEE02 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				65FC558F1D26B706003CEE02 /* DZNPolyActivity.h */,
+				65FC55901D26B706003CEE02 /* DZNPolyActivity.m */,
+				65FC55911D26B706003CEE02 /* DZNWebView.h */,
+				65FC55921D26B706003CEE02 /* DZNWebView.m */,
+				65FC55931D26B706003CEE02 /* DZNWebViewController.h */,
+				65FC55941D26B706003CEE02 /* DZNWebViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		65FC55951D26B706003CEE02 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65FC55961D26B706003CEE02 /* DZNWebViewController.strings */,
+				65FC55981D26B706003CEE02 /* dzn_icn_activity_chrome@2x.png */,
+				65FC55991D26B706003CEE02 /* dzn_icn_activity_chrome@2x~ipad.png */,
+				65FC559A1D26B706003CEE02 /* dzn_icn_activity_dolphin@2x.png */,
+				65FC559B1D26B706003CEE02 /* dzn_icn_activity_dolphin@2x~ipad.png */,
+				65FC559C1D26B706003CEE02 /* dzn_icn_activity_link@2x.png */,
+				65FC559D1D26B706003CEE02 /* dzn_icn_activity_link@2x~ipad.png */,
+				65FC559E1D26B706003CEE02 /* dzn_icn_activity_opera@2x.png */,
+				65FC559F1D26B706003CEE02 /* dzn_icn_activity_opera@2x~ipad.png */,
+				65FC55A01D26B706003CEE02 /* dzn_icn_activity_safari@2x.png */,
+				65FC55A11D26B706003CEE02 /* dzn_icn_activity_safari@2x~ipad.png */,
+				65FC55A21D26B706003CEE02 /* dzn_icn_toolbar_action.png */,
+				65FC55A31D26B706003CEE02 /* dzn_icn_toolbar_action@2x.png */,
+				65FC55A41D26B706003CEE02 /* dzn_icn_toolbar_action@3x.png */,
+				65FC55A51D26B706003CEE02 /* dzn_icn_toolbar_backward.png */,
+				65FC55A61D26B706003CEE02 /* dzn_icn_toolbar_backward@2x.png */,
+				65FC55A71D26B706003CEE02 /* dzn_icn_toolbar_backward@3x.png */,
+				65FC55A81D26B706003CEE02 /* dzn_icn_toolbar_forward.png */,
+				65FC55A91D26B706003CEE02 /* dzn_icn_toolbar_forward@2x.png */,
+				65FC55AA1D26B706003CEE02 /* dzn_icn_toolbar_forward@3x.png */,
+				65FC55AB1D26B706003CEE02 /* dzn_icn_toolbar_reload.png */,
+				65FC55AC1D26B706003CEE02 /* dzn_icn_toolbar_reload@2x.png */,
+				65FC55AD1D26B706003CEE02 /* dzn_icn_toolbar_reload@3x.png */,
+				65FC55AE1D26B706003CEE02 /* dzn_icn_toolbar_stop.png */,
+				65FC55AF1D26B706003CEE02 /* dzn_icn_toolbar_stop@2x.png */,
+				65FC55B01D26B706003CEE02 /* dzn_icn_toolbar_stop@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65FC53C91D26AF47003CEE02 /* RCTDZNWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FC53D31D26AF47003CEE02 /* Build configuration list for PBXNativeTarget "RCTDZNWebView" */;
+			buildPhases = (
+				65FC53C61D26AF47003CEE02 /* Sources */,
+				65FC53C71D26AF47003CEE02 /* Frameworks */,
+				65FC53C81D26AF47003CEE02 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTDZNWebView;
+			productName = RCTDZNWebView;
+			productReference = 65FC53CA1D26AF47003CEE02 /* libRCTDZNWebView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65FC53C21D26AF47003CEE02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Michał Siwek";
+				TargetAttributes = {
+					65FC53C91D26AF47003CEE02 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 65FC53C51D26AF47003CEE02 /* Build configuration list for PBXProject "RCTDZNWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				es,
+			);
+			mainGroup = 65FC53C11D26AF47003CEE02;
+			productRefGroup = 65FC53CB1D26AF47003CEE02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65FC53C91D26AF47003CEE02 /* RCTDZNWebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65FC53C61D26AF47003CEE02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FC55BB1D26B706003CEE02 /* DZNWebView.m in Sources */,
+				65FC55BA1D26B706003CEE02 /* DZNPolyActivity.m in Sources */,
+				65FC55BC1D26B706003CEE02 /* DZNWebViewController.m in Sources */,
+				65FC53D91D26B3CE003CEE02 /* RCTDZNWebView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65FC55961D26B706003CEE02 /* DZNWebViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65FC55971D26B706003CEE02 /* de */,
+				65FC55B11D26B706003CEE02 /* en */,
+				65FC55B21D26B706003CEE02 /* es */,
+			);
+			name = DZNWebViewController.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65FC53D11D26AF47003CEE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65FC53D21D26AF47003CEE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65FC53D41D26AF47003CEE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		65FC53D51D26AF47003CEE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65FC53C51D26AF47003CEE02 /* Build configuration list for PBXProject "RCTDZNWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FC53D11D26AF47003CEE02 /* Debug */,
+				65FC53D21D26AF47003CEE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FC53D31D26AF47003CEE02 /* Build configuration list for PBXNativeTarget "RCTDZNWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FC53D41D26AF47003CEE02 /* Debug */,
+				65FC53D51D26AF47003CEE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65FC53C21D26AF47003CEE02 /* Project object */;
+}
