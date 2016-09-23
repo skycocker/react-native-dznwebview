@@ -9,11 +9,17 @@ var {
   NativeModules: {
     DZNWebView,
   },
+  processColor,
 } = React;
 
 var RCTDZNWebViewExport = {
   open: function(url, options={}) {
-    DZNWebView.openURLWithParams(url, options);
+    var parsedOptions = {};
+
+    if(options.tintColor)
+      parsedOptions.tintColor = processColor(options.tintColor);
+
+    DZNWebView.openURLWithParams(url, parsedOptions);
   },
 };
 
